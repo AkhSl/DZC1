@@ -15,8 +15,11 @@ if (num1 > num2)
         max1 = num1; 
          System.Console.WriteLine($"{num1}, {num2}, {num3} -> {max1}");
 }
-else if (max1 > num3)
+else if (num2 > num3)
+{
+     max1 = num2;
      System.Console.WriteLine($"{num1}, {num2}, {num3} -> {max1}");
+}
  else
       System.Console.WriteLine($"{num1}, {num2}, {num3} -> {num3}");
 
